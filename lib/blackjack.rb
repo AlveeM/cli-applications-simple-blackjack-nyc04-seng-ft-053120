@@ -39,7 +39,6 @@ def hit?(total)
   if input != "h" && input != "s"
     invalid_command()
     prompt_user()
-    # tests don't pass without the next line
     input = get_user_input()
   end
   
